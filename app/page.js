@@ -8,7 +8,7 @@ const HomePage = () => {
   const { status } = useSession();
 
   const backgroundStyle = {
-    backgroundImage: "url('/wall.jpg')",
+    backgroundImage: 'url("/wall.jpg")',
     backgroundRepeat: "no-repeat",
     backgroundAttachment: "fixed",
     backgroundSize: "cover",
