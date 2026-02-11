@@ -1,15 +1,15 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 import SessionWrapper from "@/components/SessionWrapper";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
   subsets: ["latin"],
+  variable: "--font-sans",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const robotoMono = Roboto_Mono({
   subsets: ["latin"],
+  variable: "--font-mono",
 });
 
 export const metadata = {
@@ -20,8 +20,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <SessionWrapper> {/* 👈 ครอบด้วย SessionWrapper */}
+      <body className={`${inter.variable} ${robotoMono.variable} antialiased`}>
+        <SessionWrapper>
           {children}
         </SessionWrapper>
       </body>
