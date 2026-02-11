@@ -46,7 +46,7 @@ const HomePage = () => {
     <div style={backgroundStyle}>
       <div style={headerStyle}>
         <h1 style={{ margin: 0, fontSize: "2.5rem", fontWeight: "bold" }}>
-         {"LET'S CHECKBILL"}
+          LET&apos;S CHECKBILL
         </h1>
 
         <p style={{ margin: 0, fontSize: "1.2rem" }}>
