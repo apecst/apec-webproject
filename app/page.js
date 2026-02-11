@@ -1,4 +1,5 @@
 "use client";
+/* eslint-disable react/no-unescaped-entities */
 import React, { useState } from "react";
 import { Dialog, DialogTitle, DialogContent, Button } from "@mui/material";
 import { signIn, useSession } from "next-auth/react";
